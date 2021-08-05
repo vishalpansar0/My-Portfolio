@@ -6,12 +6,10 @@
     overflow-x: hidden; 
 	font-family: 'Times New Roman', Times, san-serif;
 }
-body{
-  background-image: linear-gradient(#aa4b6b,#6b6b83,#3b8d99);
-}
+
 
 .container{
-  
+  background-image: linear-gradient(#aa4b6b,#6b6b83,#3b8d99);
   text-align: center;
 
 }
@@ -29,6 +27,12 @@ body{
   padding: 0.5rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
+}
+.container hr{
+ margin: auto;
+  height: 3px;
+  background-color: black;
+  width: 60%;
 }
 
 
