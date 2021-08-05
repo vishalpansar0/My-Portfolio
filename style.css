@@ -32,7 +32,13 @@
  margin: auto;
   height: 3px;
   background-color: black;
-  width: 60%;
+  width: 80%;
+  border: none;
+}
+.heading{
+  font-size: 2rem ;
+  color:firebrick;
+  padding: 1rem;
 }
 
 
