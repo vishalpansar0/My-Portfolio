@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
+:root{
+  --main-color : #7800FF;
+  --gradient-main-color1 : #cc5333;
+  --gradient-main-color2 : #23074d;
+}
 *{
   
     margin: 0px;
@@ -7,51 +14,64 @@
 	font-family: 'Times New Roman', Times, san-serif;
 }
 
+.navbar{
+  background-color:#7800FF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-.container{
-  background-image: linear-gradient(#aa4b6b,#6b6b83,#3b8d99);
+.logo-div{
+  font-weight: 900;
+  color: black;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 10%;
+  width: 45px;
+  font-family: 'Open Sans', sans-serif;
+  height: 45px;
   text-align: center;
-
+  border: 3px solid black;
 }
-.container h1,h3{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+.menu-list{
+  margin-bottom: 0.5rem;
 }
 
-.container h1{
-    padding: 1rem;
-    font-size: 3rem;
+.menu-item{
+  display: inline;
+  margin-left: 1.5rem;
+ 
+  
+  
 }
-.container h3{
-  padding: 0.5rem;
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
+
+.menu-link{
+  text-decoration: none;
+  color:black;
+  font-size: 1rem;
 }
-.container hr{
- margin: auto;
-  height: 3px;
+.main-section{
   background-color: black;
-  width: 80%;
-  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.section-container{
+  padding: 0.5rem;
+  width: 30rem;
+  border: thin solid var(--main-color);
+}
+.section-container hr{
+  margin: auto;
+  /* border: none; */
+  background-color: var(--main-color);
 }
 .heading{
-  font-size: 2rem ;
-  color:firebrick;
-  padding: 1rem;
+   color: var(--main-color);
 }
 
-
-	
-	
-	
-	
-
-  
-  
-
-
-  
 
 
 @media only screen and (max-width: 555px) {
