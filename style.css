@@ -125,7 +125,7 @@ footer button{
   font-family: 'Open Sans', sans-serif;
     background-color: var(--main-color);
     padding: .5rem;
-    width: 100px;
+    min-width: 100px;
     font-size: 1rem;
     border: none;
     margin: 1rem 2rem 0 2rem;
