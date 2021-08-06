@@ -75,6 +75,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 1rem;
+  align-content: space-between;
 }
 .content img{
   
@@ -100,6 +101,17 @@
   font-weight: 50;
 }
 
+.alt-section{
+  background-color:#090808;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.skills{
+  padding:1rem 1.5rem 0 1.5rem;
+}
 
 
 @media only screen and (max-width: 555px) {
