@@ -78,6 +78,7 @@
   width: 30rem;
   border-radius: 5px;
   border: thin solid var(--main-color);
+  
 }
 .section-container hr{
   margin: auto;
@@ -153,4 +154,24 @@ footer button{
 
 
 
+}
+
+
+#sec1{
+  animation-name: mymove;
+  animation-duration: 1.5s;
+}
+
+#sec2{
+  animation-name: mymove1;
+  animation-duration: 1.5s;
+}
+
+@keyframes mymove {
+  from { margin-left: 800px;}
+  to { margin-left: 0px;}  
+}
+@keyframes mymove1 {
+  from { margin-right: 800px;}
+  to { margin-right: 0px;}  
 }
