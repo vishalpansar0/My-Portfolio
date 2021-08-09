@@ -156,15 +156,19 @@ footer button{
 
 }
 
-
+.fa-star{
+  color: var(--main-color);
+}
 #sec1{
   animation-name: mymove;
   animation-duration: 1.5s;
+  overflow: hidden;
 }
 
 #sec2{
   animation-name: mymove1;
   animation-duration: 1.5s;
+  overflow: hidden;
 }
 
 @keyframes mymove {
