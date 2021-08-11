@@ -135,17 +135,23 @@ footer{
   align-items: center;
   align-content: space-around;
   padding: .5rem;
-  background-color: black;
+  background-color: var(--main-color);
 }
 footer button{
   font-family: 'Open Sans', sans-serif;
-    background-color: var(--main-color);
+    background-color: black;
+    color: var(--main-color);
     padding: .5rem;
     min-width: 100px;
     font-size: 1rem;
     border: none;
     margin: .5rem;
     border-radius: 5px;
+}
+footer button a{
+  font-family: 'Open Sans', sans-serif;
+    color: var(--main-color);
+    
 }
 
 @media only screen and (max-width: 555px) {
