@@ -1,2 +1,2 @@
 # My-Portfolio
-See PreView at vishalsportfolio.netlify.app
+See PreView at https://vishalsportfolio.netlify.app
